@@ -19,7 +19,7 @@ With diet-related health issues prevalent in Bangladesh, this system provides re
 
 ---
 
-## 📊 Dataset
+## 📂 Dataset
 
 ### Sources
 - **Food Composition Table for Bangladesh (2022)**: Nutritional information.
@@ -36,20 +36,6 @@ With diet-related health issues prevalent in Bangladesh, this system provides re
 
 ---
 
-## 🛠 Repository Structure
-
-- **`notebooks/`**: Contains the Jupyter Notebook with the project implementation.
-- **`src/`**: Python scripts for:
-  - Data preprocessing (`data_preprocessing.py`)
-  - Feature engineering (`feature_engineering.py`)
-  - Model training (`model_training.py`)
-  - Caloric prediction (`predict_calories.py`)
-- **`data/`**: Placeholder for the dataset with a `README.md` for access instructions.
-- **`results/`**: Includes evaluation metrics and visualizations.
-- **`requirements.txt`**: Contains dependencies for running the project.
-
----
-
 ## 🔧 Getting Started
 
 1. **Download or Clone the Repository**  
@@ -60,7 +46,6 @@ With diet-related health issues prevalent in Bangladesh, this system provides re
    Install the required Python packages using the `requirements.txt` file.
 
 3. **Prepare the Dataset**  
-   - Follow instructions in the `data/README.md` to access or compile the dataset.
    - Store the dataset files in the `data/` folder.
 
 4. **Run the Notebook**  
@@ -74,7 +59,21 @@ With diet-related health issues prevalent in Bangladesh, this system provides re
 - **Performance**:
   - **MSE**: 15.75
   - **R²**: 0.9999
-- **Visualizations**: Error distributions, feature importance, and model performance plots.
+- **Visualizations**:
+  - Error distributions
+ 
+    ![image](https://github.com/user-attachments/assets/002e0d9f-a8dd-48d6-9247-535bedd6b41e)
+
+
+  - feature importance
+
+    ![image](https://github.com/user-attachments/assets/00a91444-2631-4188-93d2-c742f3ffebd2)
+
+
+  - model performance plots
+
+    ![image](https://github.com/user-attachments/assets/2e5aa2c0-14e1-4d56-b244-2bed46c568c0)
+
 
 ---
 
